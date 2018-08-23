@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
+		http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+    <!-- 静态资源处理 -->
+    <mvc:default-servlet-handler/>
+    <!-- spring mcv 注解配置 -->
+    <mvc:annotation-driven/>
+    <!-- 配置spring mvc 扫描controller -->
+    <context:component-scan base-package="com.*"/>
+    <context:component-scan base-package="com.json" />
+    <!-- 配置spring mvc 试图解析器 -->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="page/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    <!-- 拦截器 -->
+    <!--<mvc:interceptors>-->
+        <!--&lt;!&ndash; 多个拦截器，顺序执行 &ndash;&gt;-->
+        <!--<mvc:interceptor>-->
+            <!--<mvc:mapping path="/key/*"/>-->
+            <!--<mvc:mapping path="/keylog/*"/>-->
+            <!--<bean class="com.bonc.verify.interceptor.LoginInterceptor"/>-->
+        <!--</mvc:interceptor>-->
+    <!--</mvc:interceptors>-->
+
+    <!--<bean id="aopBean" class="com.bonc.verify.aspect.HttpAspect"/>-->
+    <!--<aop:aspectj-autoproxy proxy-target-class="true"/>-->
+    <!--<aop:config>-->
+        <!--<aop:aspect ref="aopBean">-->
+            <!--<aop:pointcut expression="execution(public * com.bonc.verify.controller.RedisClusterController.query(..))"-->
+                          <!--id="query"/>-->
+            <!--<aop:around method="aroundQuery" pointcut-ref="query"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
+</beans>
