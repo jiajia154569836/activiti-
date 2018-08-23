@@ -7,7 +7,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e78b3d7-5500-46ab-8eb8-2773bbea507d" name="Default" comment="" />
+    <list default="true" id="4e78b3d7-5500-46ab-8eb8-2773bbea507d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/test/activiti/LeaveActivitiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/test/activiti/LeaveActivitiTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/activiti/LeaveActivitiTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +30,8 @@
       <file leaf-file-name="GitwayTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/activiti/GitwayTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="198" column="9" selection-start-line="190" selection-start-column="7" selection-end-line="198" selection-end-column="9" />
+            <state relative-caret-position="175">
+              <caret line="199" column="5" lean-forward="true" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;field#processEngine#0;class#GitwayTest#0" expanded="true" />
@@ -48,11 +53,8 @@
       <file leaf-file-name="GitwayTest1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/test/activiti/GitwayTest1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-695">
+            <state relative-caret-position="525">
               <caret line="46" column="93" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="93" />
-              <folding>
-                <element signature="e#5153#5161#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -60,8 +62,8 @@
       <file leaf-file-name="LeaveActivitiTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/test/activiti/LeaveActivitiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2750">
-              <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
+            <state relative-caret-position="186">
+              <caret line="141" column="74" selection-start-line="141" selection-start-column="74" selection-end-line="141" selection-end-column="74" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;field#processEngine#0;class#LeaveActivitiTest#0" expanded="true" />
@@ -71,6 +73,7 @@
                 <element signature="docComment;method#queryTask#0;class#LeaveActivitiTest#0" expanded="true" />
                 <element signature="docComment;method#handleTask#0;class#LeaveActivitiTest#0" expanded="true" />
                 <element signature="docComment;method#ifEnd#0;class#LeaveActivitiTest#0" expanded="true" />
+                <element signature="docComment;method#sear#0;class#LeaveActivitiTest#0" expanded="true" />
                 <element signature="docComment;method#deleteDeployment#0;class#LeaveActivitiTest#0" expanded="true" />
                 <element signature="docComment;method#deployWithZip#0;class#LeaveActivitiTest#0" expanded="true" />
                 <element signature="docComment;method#deleteProcessDefinitionByKey#0;class#LeaveActivitiTest#0" expanded="true" />
@@ -79,16 +82,6 @@
                 <element signature="docComment;method#test#0;class#LeaveActivitiTest#0" expanded="true" />
                 <element signature="docComment;method#testCreateProcessEngine#0;class#LeaveActivitiTest#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="请假流程(反射).bpmn20.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/bpmn1/请假流程(反射).bpmn20.xml">
-          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="36" column="107" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="36" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -117,7 +110,11 @@
       <find>isCondition</find>
       <find>elString</find>
       <find>List</find>
+      <find>repositoryServic</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -145,7 +142,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/page/activiti/png_view.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/activiti/ActivitiController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/utils/ImageAnd64Binary.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/page/activiti/ActivitiProccessImagePage.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/page/activiti/activitiMainPage.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/bpmn1/start.form.html" />
@@ -172,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/bpmn3/Cy.bpmn20.xml" />
         <option value="$PROJECT_DIR$/src/main/test/activiti/GitwayTest.java" />
         <option value="$PROJECT_DIR$/src/main/test/activiti/GitwayTest1.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/test/activiti/LeaveActivitiTest.java" />
       </list>
     </option>
@@ -208,12 +205,7 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springmvcz" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
+      <expand />
       <select />
     </treeState>
   </component>
@@ -223,225 +215,54 @@
     <option name="width" value="1071" />
     <option name="height" value="688" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti测试+实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti测试+实战" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti测试+实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti测试+实战" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti测试+实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti测试+实战" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="bpmn1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="bpmn3" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti测试+实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti测试+实战" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
+              <item name="activiti测试+实战" type="b2602c69:ProjectViewProjectNode" />
+              <item name="activiti测试+实战" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springmvcz" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:5.21.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:5.21.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-5.21.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:5.21.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-5.21.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:5.21.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-5.21.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:5.21.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-5.21.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:5.21.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-5.21.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="pvm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springmvcz" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.activiti:activiti-engine:5.21.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="activiti-engine-5.21.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="activiti" type="462c0819:PsiDirectoryNode" />
-              <item name="engine" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="pvm" type="462c0819:PsiDirectoryNode" />
-              <item name="process" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -496,35 +317,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LeaveActivitiTest.ifEnd">
+  <component name="RunManager" selected="JUnit.LeaveActivitiTest.searchHistoryInfo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="GitwayTest1.tt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springmvcz" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="activiti.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="activiti" />
-      <option name="MAIN_CLASS_NAME" value="activiti.GitwayTest1" />
-      <option name="METHOD_NAME" value="tt" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="LeaveActivitiTest.handleTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springmvcz" />
@@ -585,6 +383,29 @@
       <option name="PACKAGE_NAME" value="activiti" />
       <option name="MAIN_CLASS_NAME" value="activiti.LeaveActivitiTest" />
       <option name="METHOD_NAME" value="queryTask" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LeaveActivitiTest.searchHistoryInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springmvcz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="activiti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="activiti" />
+      <option name="MAIN_CLASS_NAME" value="activiti.LeaveActivitiTest" />
+      <option name="METHOD_NAME" value="searchHistoryInfo" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -896,19 +717,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.aa" />
-      <item itemvalue="JUnit.GitwayTest1.tt" />
       <item itemvalue="JUnit.LeaveActivitiTest.startProcess" />
       <item itemvalue="JUnit.LeaveActivitiTest.queryTask" />
       <item itemvalue="JUnit.LeaveActivitiTest.handleTask" />
       <item itemvalue="JUnit.LeaveActivitiTest.ifEnd" />
+      <item itemvalue="JUnit.LeaveActivitiTest.searchHistoryInfo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LeaveActivitiTest.searchHistoryInfo" />
         <item itemvalue="JUnit.LeaveActivitiTest.ifEnd" />
         <item itemvalue="JUnit.LeaveActivitiTest.handleTask" />
         <item itemvalue="JUnit.LeaveActivitiTest.queryTask" />
         <item itemvalue="JUnit.LeaveActivitiTest.startProcess" />
-        <item itemvalue="JUnit.GitwayTest1.tt" />
       </list>
     </recent_temporary>
   </component>
@@ -939,25 +760,11 @@
       <workItem from="1534474576656" duration="29071000" />
       <workItem from="1534899827875" duration="1407000" />
       <workItem from="1534950152646" duration="7657000" />
+      <workItem from="1535009912323" duration="7743000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LeaveActivitiTest_queryTask - 2018.08.23 at 10h 48m 09s.xml">
-      <configuration name="LeaveActivitiTest.queryTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeaveActivitiTest_handleTask - 2018.08.23 at 10h 58m 20s.xml">
-      <configuration name="LeaveActivitiTest.handleTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeaveActivitiTest_queryTask - 2018.08.23 at 15h 05m 50s.xml">
-      <configuration name="LeaveActivitiTest.queryTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeaveActivitiTest_queryTask - 2018.08.23 at 15h 21m 55s.xml">
-      <configuration name="LeaveActivitiTest.queryTask" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LeaveActivitiTest_handleTask - 2018.08.23 at 15h 22m 30s.xml">
-      <configuration name="LeaveActivitiTest.handleTask" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LeaveActivitiTest_queryTask - 2018.08.23 at 15h 22m 38s.xml">
       <configuration name="LeaveActivitiTest.queryTask" configurationId="JUnit" />
     </history-entry>
@@ -973,9 +780,24 @@
     <history-entry file="LeaveActivitiTest_ifEnd - 2018.08.23 at 15h 27m 14s.xml">
       <configuration name="LeaveActivitiTest.ifEnd" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LeaveActivitiTest_searchHistoryInfo - 2018.08.23 at 15h 58m 53s.xml">
+      <configuration name="LeaveActivitiTest.searchHistoryInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeaveActivitiTest_searchHistoryInfo - 2018.08.23 at 15h 59m 38s.xml">
+      <configuration name="LeaveActivitiTest.searchHistoryInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeaveActivitiTest_searchHistoryInfo - 2018.08.23 at 16h 30m 33s.xml">
+      <configuration name="LeaveActivitiTest.searchHistoryInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeaveActivitiTest_searchHistoryInfo - 2018.08.23 at 16h 34m 26s.xml">
+      <configuration name="LeaveActivitiTest.searchHistoryInfo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LeaveActivitiTest_searchHistoryInfo - 2018.08.23 at 16h 47m 10s.xml">
+      <configuration name="LeaveActivitiTest.searchHistoryInfo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197690000" />
+    <option name="totallyTimeSpent" value="205433000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -988,12 +810,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="0" sideWeight="0.49923548" weight="0.3298791" />
-      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.16055046" side_tool="true" visible="true" weight="0.42314336" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.1353211" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" sideWeight="0.16207951" side_tool="true" visible="true" weight="0.18134715" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.10244648" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" sideWeight="0.8501529" weight="0.37651122" />
       <window_info id="Capture Tool" order="4" />
@@ -1004,27 +827,27 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.8394495" weight="0.40069085" />
       <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49923548" weight="0.3298791" />
-      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.47859326" weight="0.29533678" />
+      <window_info anchor="bottom" id="Messages" order="4" sideWeight="0.47782874" weight="0.29533678" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="1" />
       <window_info anchor="bottom" id="Java Enterprise" order="5" weight="0.3298791" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.8394495" visible="true" weight="0.42314336" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.8379205" visible="true" weight="0.18134715" />
       <window_info anchor="bottom" id="Spring" order="1" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.3298791" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.75449103" visible="true" weight="0.2584098" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.7510548" visible="true" weight="0.24770643" />
       <window_info anchor="bottom" id="Problems" order="16" sideWeight="0.49923548" weight="0.3298791" />
+      <window_info id="JRebel" order="8" sideWeight="0.24894515" side_tool="true" visible="true" weight="0.24770643" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info id="JRebel" order="8" sideWeight="0.24550898" side_tool="true" visible="true" weight="0.2584098" />
       <window_info anchor="right" id="BPMNPalette" order="10" />
-      <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49923548" weight="0.19861831" />
       <window_info anchor="right" id="SciView" order="2" weight="0.3295107" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="9" sideWeight="0.49923548" weight="0.19861831" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="8" />
     </layout>
@@ -1061,6 +884,31 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/test/activiti/LeaveActivitiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5350">
+          <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;field#processEngine#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#testCreateProcessEngineByCfgXml#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#deployProcess#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#startProcess#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#queryTask#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#handleTask#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#ifEnd#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#sear#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#deleteDeployment#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#deployWithZip#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#deleteProcessDefinitionByKey#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#queryAllLatestVersions#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#create#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#test#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#testCreateProcessEngine#0;class#LeaveActivitiTest#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/activiti/GitwayTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3225">
@@ -1373,13 +1221,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="265" column="17" lean-forward="true" selection-start-line="265" selection-start-column="17" selection-end-line="265" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/Repositories/org/activiti/activiti-engine/5.21.0/activiti-engine-5.21.0-sources.jar!/org/activiti/engine/impl/pvm/process/TransitionImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="97">
@@ -1415,10 +1256,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/activiti/GitwayTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="46" column="93" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/activiti/GitwayTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="198" column="9" selection-start-line="190" selection-start-column="7" selection-end-line="198" selection-end-column="9" />
+        <state relative-caret-position="175">
+          <caret line="199" column="5" lean-forward="true" selection-start-line="199" selection-start-column="5" selection-end-line="199" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;field#processEngine#0;class#GitwayTest#0" expanded="true" />
@@ -1436,28 +1291,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/activiti/GitwayTest1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-695">
-          <caret line="46" column="93" selection-start-line="46" selection-start-column="77" selection-end-line="46" selection-end-column="93" />
-          <folding>
-            <element signature="e#5153#5161#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/bpmn1/请假流程(反射).bpmn20.xml">
-      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="36" column="107" lean-forward="true" selection-start-line="32" selection-start-column="3" selection-end-line="36" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/test/activiti/LeaveActivitiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2750">
-          <caret line="256" lean-forward="true" selection-start-line="256" selection-end-line="256" />
+        <state relative-caret-position="186">
+          <caret line="141" column="74" selection-start-line="141" selection-start-column="74" selection-end-line="141" selection-end-column="74" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;field#processEngine#0;class#LeaveActivitiTest#0" expanded="true" />
@@ -1467,6 +1304,7 @@
             <element signature="docComment;method#queryTask#0;class#LeaveActivitiTest#0" expanded="true" />
             <element signature="docComment;method#handleTask#0;class#LeaveActivitiTest#0" expanded="true" />
             <element signature="docComment;method#ifEnd#0;class#LeaveActivitiTest#0" expanded="true" />
+            <element signature="docComment;method#sear#0;class#LeaveActivitiTest#0" expanded="true" />
             <element signature="docComment;method#deleteDeployment#0;class#LeaveActivitiTest#0" expanded="true" />
             <element signature="docComment;method#deployWithZip#0;class#LeaveActivitiTest#0" expanded="true" />
             <element signature="docComment;method#deleteProcessDefinitionByKey#0;class#LeaveActivitiTest#0" expanded="true" />

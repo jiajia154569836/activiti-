@@ -5,8 +5,11 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import com.utils.*;
 import org.activiti.editor.constants.ModelDataJsonConstants;
 import org.activiti.engine.*;
+import org.activiti.engine.history.HistoricActivityInstance;
+import org.activiti.engine.history.HistoricVariableInstance;
 import org.activiti.engine.repository.*;
 import org.activiti.engine.runtime.ProcessInstance;
+import org.activiti.engine.task.Comment;
 import org.activiti.engine.task.Task;
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Test;
@@ -124,9 +127,39 @@ public class LeaveActivitiTest {
         }
     }
 
+    /**
+     * 查询历史流程信息
+     */
+    @Test
+    public void searchHistoryInfo() {
+        HistoryService historyService = processEngine.getHistoryService();
+        RepositoryService repositoryServic = processEngine.getRepositoryService();
+        TaskService taskService =processEngine.getTaskService();
+        String processInstanceId ="";
 
-    
+        //根据唯一变量获取processInstanceId
+        String trialId="001";
+        historyService.createHistoricDetailQuery().activityInstanceId("");
+//         processInstanceId = historyService.createHistoricVariableInstanceQuery().variableValueEquals("trialId", trialId).singleResult().getProcessInstanceId();
+//        System.out.println(processInstanceId);
 
+      Task task =   taskService.createTaskQuery().taskAssignee("").processInstanceId("").singleResult();
+
+
+        //根据变量获取立历史变量实例
+//        List<HistoricVariableInstance> list  = new ArrayList<HistoricVariableInstance>();
+//        list = historyService.createHistoricVariableInstanceQuery().variableValueEquals("trialId", trialId).list();
+//        System.out.println(list.toString());
+
+        //根据taskId获取processInstanceId 注意必须是正在执行的流程
+        String taskId = "95006";
+        String processId=taskService.createTaskQuery().taskId(taskId).singleResult().getProcessInstanceId();
+//        ProcessInstance processInstance =processEngine.getRuntimeService().createProcessInstanceQuery().processInstanceId("").singleResult();
+//         processInstanceId = taskService.createTaskQuery().processInstanceId().taskId(taskId).singleResult().getProcessInstanceId();
+//        System.out.println(processInstanceId);
+       // List<HistoricActivityInstance> list = historyService.createHistoricActivityInstanceQuery().processInstanceId(processInstanceId).orderByHistoricActivityInstanceStartTime().asc().list();
+//        List<Comment> commentlists = taskService.getTaskComments(hai.getTaskId(), "fullMessage");
+    }
 
 
     /**
@@ -147,7 +180,7 @@ public class LeaveActivitiTest {
 
     /**
      * 通过ZIP包部署流程
-     * */
+     */
     @Test
     public void deployWithZip() {
         InputStream inputStream = this.getClass()  // 获取当前class对象
@@ -311,7 +344,7 @@ public class LeaveActivitiTest {
             repositoryService.addModelEditorSource(modelData.getId(), editorNode.toString().getBytes("utf-8"));
 
             System.out.println(modelData.getId());
-          //  response.sendRedirect(request.getContextPath() + "activiti-editor/modeler.html?modelId=" + modelData.getId());
+            //  response.sendRedirect(request.getContextPath() + "activiti-editor/modeler.html?modelId=" + modelData.getId());
 
         } catch (Exception e) {
 
@@ -329,7 +362,7 @@ public class LeaveActivitiTest {
 
     @Test
     public void download() throws Exception {
-        HttpServletResponse response=null;
+        HttpServletResponse response = null;
         String DEPLOYMENT_ID_ = "20001";        //部署ID
         createXmlAndPng(DEPLOYMENT_ID_);                            //生成XML和PNG
         /*生成的全部代码压缩成zip文件*/
@@ -355,12 +388,10 @@ public class LeaveActivitiTest {
 
     /**
      * 通过modelId部署流程
-     * */
+     */
     /*
     deploymentProcessDefinitionFromModelId(pd.getString("modelId"));//部署流程定义
 */
-
-
     @Test
     public void test() {
         //以下两种方式选择一种创建引擎方式：1.配置写在程序里 2.读对应的配置文件
